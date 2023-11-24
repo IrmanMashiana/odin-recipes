@@ -1,0 +1,20 @@
+*{
+    background-color: tan;
+}
+
+.frontPage-ImageHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontPage-title{
+    color:red;
+    text-align: center;
+    border: black;
+    border-style: double;
+}
+
+.frontPage-MenuItems{
+    font-size: 24px;
+}
