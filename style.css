@@ -1,5 +1,6 @@
 *{
     background-color: tan;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .frontPage-ImageHeader{
@@ -9,7 +10,8 @@
 }
 
 .frontPage-title{
-    color:red;
+    color: navy;
+    font-size: 24px;
     text-align: center;
     border: black;
     border-style: double;
