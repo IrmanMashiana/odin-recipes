@@ -19,4 +19,12 @@
 
 .frontPage-MenuItems{
     font-size: 24px;
+
+}.frontPage-MenuItems li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.frontPage-MenuItems a{
+    display: grid;
 }

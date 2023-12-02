@@ -24,5 +24,46 @@
         </ul>
     </div>
     
+
+    <script>
+        let name = 'test';
+        console.log(name);
+
+        // Object
+        let person = {
+            name: "John",
+            age: 30
+        };
+        console.log(person);
+        
+        // Dot Notation
+        person.name = "Johnny";
+        console.log(person);
+
+        // Bracket Notation
+        person['name'] = "Jane";
+        console.log(person);
+
+
+        // Arrays
+        let myArray = ["apple", "banana", "carrot"];
+        console.log(myArray);
+
+        myArray[3] = 1;
+        console.log(myArray);
+        console.log(myArray.length);
+
+        // Functions
+        function greet(name, lastName){
+            console.log('Hello ' + name + ' ' + lastName);
+        }
+        greet('Mary',"Jane");
+
+        function square(number){
+            return number * number;
+        } 
+        console.log(square(2));
+
+    </script>
 </body>
 </html>
